@@ -14,8 +14,7 @@ const Hero = () => {
               Fresh Graduate & Bachelor of Informatics
             </h2>
             <p className="font-medium text-slate-400 mb-10 leading-relaxed">
-              Saya seorang fresh graduate yang menempuh pendidikan di
-              Universitas Kristen Duta Wacana
+            I am a fresh graduate studying at Duta Wacana Christian University
             </p>
             <a
               href="#"

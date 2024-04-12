@@ -311,7 +311,7 @@ const About = () => {
                 </div>
               </div>
               <div className="lg:w-1/2">
-                <div className="mx-5 mb-10 px-5 pb-5 pt-5">
+                <div className="mx-5 mb-10 px-5 pb-5 pt-5 lg:border-none border lg:shadow-none border-slate-300 rounded-md shadow-md ">
                   <h4 className="text-md mb-2 font-bold text-black lg:text-2xl">
                     Quality Assurance Engineer
                   </h4>
@@ -327,7 +327,7 @@ const About = () => {
                     Enim excepturi est adipisci quo quae a!
                   </p>
                 </div>
-                <div className="mx-5 mb-8 px-5 pb-5 pt-5">
+                <div className="mx-5 mb-8 px-5 pb-5 pt-5 lg:border-none border lg:shadow-none border-slate-300 rounded-md shadow-md">
                   <h4 className="text-md mb-2 font-bold text-black lg:text-2xl">
                     Junior Quality Assurance Engineer
                   </h4>
@@ -343,14 +343,14 @@ const About = () => {
                     Enim excepturi est adipisci quo quae a!
                   </p>
                 </div>
-                <div className="mx-5 px-5 pb-5 pt-5">
+                <div className="mx-5 px-5 pb-5 pt-5 lg:border-none border lg:shadow-none border-slate-300 rounded-md shadow-md">
                   <h4 className="text-md mb-2 font-bold text-black lg:text-2xl">
                     Software Developer
                   </h4>
                   <p className="mb-2 text-sm  text-slate-500 lg:text-lg">
                     Yayasan SATUNAMA
                   </p>
-                  <p className="mb-2">Internship (30 Agustus - 31 September)</p>
+                  <p className="mb-2">Internship (30 Agustus - 30 September (2023))</p>
                   <p className="mb-3 text-sm font-medium lg:text-base">
                     Jl. Sambisari Jl. Duwet No.99, Jaran, Sendangadi, Kec.
                     Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta
