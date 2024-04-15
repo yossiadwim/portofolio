@@ -364,11 +364,10 @@ const About = () => {
                     Maguwoharjo, Special Region of Yogyakarta
                   </p>
                   <p>
-                    In addition to my
-                    internship, I had the opportunity to work as a freelance
-                    Junior Quality Assurance Engineer at Qatros. During this
-                    time, I performed manual testing of websites for medical
-                    checkups, pharmacies, swab tests, and PCR tests for
+                    In addition to my internship, I had the opportunity to work
+                    as a freelance Junior Quality Assurance Engineer at Qatros.
+                    During this time, I performed manual testing of websites for
+                    medical checkups, pharmacies, swab tests, and PCR tests for
                     COVID-19. Here are some of the tasks I performed as a
                     freelancer:
                   </p>

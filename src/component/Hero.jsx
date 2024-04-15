@@ -17,7 +17,7 @@ const Hero = () => {
             I am a fresh graduate studying at Duta Wacana Christian University
             </p>
             <a
-              href="#"
+              href="https://wa.me/081273422807" target="blank"
               className="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
             >
               Contact Me
