@@ -253,7 +253,11 @@ const About = () => {
             </h4>
             <div className="flex flex-wrap justify-center">
               <span className="">
-                <img src="/img/logo-ukdw.png" alt="image" className="w-40 hover:opacity-75" />
+                <img
+                  src="/img/logo-ukdw.png"
+                  alt="image"
+                  className="w-40 hover:opacity-75"
+                />
               </span>
 
               <div className="mx-10 self-center">
@@ -288,7 +292,7 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-60 w-1 bg-teal-500"></div>
+                    <div className="mx-[8px] h-[450px] w-1 bg-teal-500"></div>
                   </div>
                 </div>
                 <div className="flex flex-wrap">
@@ -297,7 +301,7 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-60 w-1 bg-teal-500"></div>
+                    <div className="mx-[8px] h-96 w-1 bg-teal-500"></div>
                   </div>
                 </div>
                 <div className="flex flex-wrap">
@@ -306,32 +310,53 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-60 w-1 bg-teal-500"></div>
+                    <div className="mx-[8px] h-[550px] w-1 bg-teal-500"></div>
                   </div>
                 </div>
               </div>
               <div className="lg:w-1/2">
-                <div className="mx-5 mb-10 px-5 pb-5 pt-5 lg:border-none border lg:shadow-none border-slate-300 rounded-md shadow-md ">
-                  <h4 className="text-md mb-2 font-bold text-black lg:text-2xl">
+                <div className="mx-5 mb-10 overflow-y-auto rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md lg:border-none lg:shadow-none ">
+                  <h4 className="text-md mb-2 text-lg font-bold text-black lg:text-2xl">
                     Quality Assurance Engineer
                   </h4>
-                  <p className="mb-2 text-xs text-slate-500 lg:text-lg">
-                    PT Qatros Teknologi Nusantara
+                  <p className="mb-2 text-lg text-slate-500 lg:text-lg">
+                    PT Qatros Teknologi Nusantara X MSIB Kampus Merdeka
                   </p>
                   <p className="mb-2">Internship (30 Agustus - 31 Desember)</p>
                   <p className="mb-3 text-sm font-medium lg:text-base">
                     Maguwoharjo, Special Region of Yogyakarta
                   </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Enim excepturi est adipisci quo quae a!
+                  <p className="">
+                    During my 7th semester, I participated in the government's
+                    MSIB program. I applied for the internship program with the
+                    position of Quality Assurance Engineer. The program ran from
+                    August to December 2022. Here are some of the things I
+                    worked on during my internship:
                   </p>
+                  <ul className="mx-5 mt-2 list-disc">
+                    <li>
+                      Proactively and communicatively formulate work-related
+                      solutions.
+                    </li>
+                    <li>
+                      Follow and implement the syllabus prepared by the mentor.
+                    </li>
+                    <li>
+                      Review requirements, specifications, and design documents
+                      technically to generate accurate and meaningful responses.
+                    </li>
+                    <li>Enhance and ensure good software quality.</li>
+                    <li>
+                      Conduct thorough regression testing once issues/bugs have
+                      been resolved.
+                    </li>
+                  </ul>
                 </div>
-                <div className="mx-5 mb-8 px-5 pb-5 pt-5 lg:border-none border lg:shadow-none border-slate-300 rounded-md shadow-md">
-                  <h4 className="text-md mb-2 font-bold text-black lg:text-2xl">
+                <div className="mx-5 mb-8 rounded-md border border-slate-300 px-5 pb-5 shadow-md lg:border-none lg:shadow-none">
+                  <h4 className="mb-2 text-lg font-bold text-black lg:text-2xl">
                     Junior Quality Assurance Engineer
                   </h4>
-                  <p className="mb-2 text-sm text-slate-500 lg:text-lg">
+                  <p className="mb-2 text-lg text-slate-500 lg:text-lg">
                     PT Qatros Teknologi Nusantara
                   </p>
                   <p className="mb-2">Freelance (03 Oktober - 14 November)</p>
@@ -339,26 +364,67 @@ const About = () => {
                     Maguwoharjo, Special Region of Yogyakarta
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Enim excepturi est adipisci quo quae a!
+                    Sure, here is the translation of the text: In addition to my
+                    internship, I had the opportunity to work as a freelance
+                    Junior Quality Assurance Engineer at Qatros. During this
+                    time, I performed manual testing of websites for medical
+                    checkups, pharmacies, swab tests, and PCR tests for
+                    COVID-19. Here are some of the tasks I performed as a
+                    freelancer:
                   </p>
+                  <ul className="mx-5 mt-2 list-disc">
+                    <li>
+                      Completed Qatros projects within the agreed-upon
+                      timeframe.
+                    </li>
+                    <li>Identified and corrected bugs.</li>
+                    <li>Provided progress reports on assigned tasks.</li>
+                  </ul>
                 </div>
-                <div className="mx-5 px-5 pb-5 pt-5 lg:border-none border lg:shadow-none border-slate-300 rounded-md shadow-md">
-                  <h4 className="text-md mb-2 font-bold text-black lg:text-2xl">
+                <div className="mx-5 rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md lg:border-none lg:shadow-none">
+                  <h4 className="mb-2 text-lg font-bold text-black lg:text-2xl">
                     Software Developer
                   </h4>
-                  <p className="mb-2 text-sm  text-slate-500 lg:text-lg">
+                  <p className="mb-2 text-lg  text-slate-500 lg:text-lg">
                     Yayasan SATUNAMA
                   </p>
-                  <p className="mb-2">Internship (30 Agustus - 30 September (2023))</p>
+                  <p className="mb-2">
+                    Internship (30 Agustus - 30 September (2023))
+                  </p>
                   <p className="mb-3 text-sm font-medium lg:text-base">
                     Jl. Sambisari Jl. Duwet No.99, Jaran, Sendangadi, Kec.
                     Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Enim excepturi est adipisci quo quae a!
+                    During my 7th semester, I had the opportunity to intern as a
+                    software developer at a non-profit foundation. The
+                    foundation was collaborating with Duta Wacana Christian
+                    University to digitize its business processes. During this
+                    internship, I developed a website for a recruitment
+                    monitoring system to support the digitization of the
+                    recruitment process. This internship experience was then
+                    continued as a final project for my thesis course. Here are
+                    some of the tasks I performed during my internship:
                   </p>
+                  <ul className="mx-5 mt-2 list-disc">
+                    <li>
+                      {" "}
+                      Conducted a thorough analysis of the recruitment business
+                      process within the foundation.
+                    </li>
+                    <li>
+                      Designed and developed a comprehensive recruitment
+                      monitoring system.
+                    </li>
+                    <li>
+                      Successfully implemented the recruitment monitoring system
+                      using the Laravel framework.
+                    </li>
+                    <li>
+                      Rigorously tested the system to ensure its functionality
+                      and performance.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
