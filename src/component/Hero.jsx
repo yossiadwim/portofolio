@@ -20,7 +20,7 @@ const Hero = () => {
               href="#"
               className="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
             >
-              Hubungi Saya
+              Contact Me
             </a>
           </div>
           <div className="w-full self-end px-4 lg:w-1/2 ">
