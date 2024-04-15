@@ -364,7 +364,7 @@ const About = () => {
                     Maguwoharjo, Special Region of Yogyakarta
                   </p>
                   <p>
-                    Sure, here is the translation of the text: In addition to my
+                    In addition to my
                     internship, I had the opportunity to work as a freelance
                     Junior Quality Assurance Engineer at Qatros. During this
                     time, I performed manual testing of websites for medical
