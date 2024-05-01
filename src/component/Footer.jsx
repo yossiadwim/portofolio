@@ -23,7 +23,7 @@ const Footer = () => {
                 yssdmhrdka@gmail.com
               </a>
             </div>
-            <div className="mt-2 flex">
+            {/* <div className="mt-2 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -48,7 +48,7 @@ const Footer = () => {
                 Perumahan Graha Banguntapan, Gg Mangga No. A10, Bantul,
                 Yogyakarta
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="mb-12 w-full px-4 font-medium text-slate-300 md:w-1/3">
             <h2 className="mb-5 text-4xl font-bold text-white">Follow Me!</h2>

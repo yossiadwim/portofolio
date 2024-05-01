@@ -1,13 +1,13 @@
 const About = () => {
   return (
-    <section id="about" className="pb-32 pt-36 ">
+    <section id="about" className="pb-32 pt-36">
       <div className="container mb-10 pl-0 pr-0">
         <div className="flex flex-wrap">
           <div className="mb-10 w-full px-5 lg:w-1/2">
             <h4 className="mb-3 text-2xl font-bold uppercase text-teal-500 lg:text-3xl">
               About Me
             </h4>
-            <p className="text-justify text-base font-medium text-slate-500">
+            <p className="text-justify text-sm font-medium text-slate-500">
               I am a graduate in informatics from Duta Wacana Christian
               University. Throughout my coursework, I have developed a profound
               understanding of key concepts in informatics, alongside robust
@@ -171,24 +171,9 @@ const About = () => {
                   <path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z" />
                 </svg>
               </a>
-              <a
-                href=""
-                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full hover:text-white "
-              >
-                <svg
-                  role="img"
-                  viewBox="0 0 24 24"
-                  className="hover:opacity-75"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#06B6D4"
-                >
-                  <title>Tailwind CSS</title>
-                  <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
-                </svg>
-              </a>
             </div>
             <p className="text-base font-medium text-slate-500">
-              Technology That I am Studying
+              Technology that I am studying
             </p>
             <div className="mb-10 mt-3 flex items-center">
               <a
@@ -213,6 +198,21 @@ const About = () => {
                 <svg
                   role="img"
                   viewBox="0 0 24 24"
+                  className="hover:opacity-75"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#06B6D4"
+                >
+                  <title>Tailwind CSS</title>
+                  <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
+                </svg>
+              </a>
+              {/* <a
+                href=""
+                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full hover:text-white "
+              >
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                   className="hover:opacity-75"
                   fill="#000000"
@@ -220,7 +220,7 @@ const About = () => {
                   <title>Express</title>
                   <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z" />
                 </svg>
-              </a>
+              </a> */}
             </div>
             <h3 className="mb-3 text-2xl font-bold uppercase text-teal-500 lg:text-3xl">
               Stay Connected with Me!
@@ -333,7 +333,7 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-[450px] w-1 bg-teal-500"></div>
+                    <div className="mx-[8px] h-[500px] w-1 bg-teal-500 md:h-[470px] xl:h-[550px]"></div>
                   </div>
                 </div>
                 <div className="flex flex-wrap">
@@ -342,7 +342,7 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-96 w-1 bg-teal-500"></div>
+                    <div className="mx-[8px] h-96 w-1 bg-teal-500 md:h-[420px]"></div>
                   </div>
                 </div>
                 <div className="flex flex-wrap">
@@ -351,30 +351,30 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-[550px] w-1 bg-teal-500"></div>
+                    <div className="mx-[8px] h-[550px] w-1 bg-teal-500 md:h-[620px]"></div>
                   </div>
                 </div>
               </div>
               <div className="lg:w-1/2">
                 <div className="mx-5 mb-10 overflow-y-auto rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md lg:border-none lg:shadow-none ">
-                  <h4 className="text-md mb-2 text-lg font-bold text-black lg:text-2xl">
+                  <h4 className="text-md mb-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Quality Assurance Engineer
                   </h4>
-                  <p className="mb-2 text-lg text-slate-500 lg:text-lg">
+                  <p className="mb-2 text-sm text-slate-500 md:text-lg xl:text-lg">
                     PT Qatros Teknologi Nusantara X MSIB Kampus Merdeka
                   </p>
                   <p className="mb-2">Internship (30 Agustus - 31 Desember)</p>
-                  <p className="mb-3 text-sm font-medium lg:text-base">
+                  <p className="mb-3 text-sm font-medium xl:text-base">
                     Maguwoharjo, Special Region of Yogyakarta
                   </p>
-                  <p className="">
+                  <p className="text-md xl:text-lg">
                     During my 7th semester, I participated in the government's
                     MSIB program. I applied for the internship program with the
                     position of Quality Assurance Engineer. The program ran from
                     August to December 2022. Here are some of the things I
                     worked on during my internship:
                   </p>
-                  <ul className="mx-5 mt-2 list-disc">
+                  <ul className="mx-5 mt-2 list-disc text-sm xl:text-lg">
                     <li>
                       Proactively and communicatively formulate work-related
                       solutions.
@@ -394,17 +394,17 @@ const About = () => {
                   </ul>
                 </div>
                 <div className="mx-5 mb-8 rounded-md border border-slate-300 px-5 pb-5 shadow-md lg:border-none lg:shadow-none">
-                  <h4 className="mb-2 text-lg font-bold text-black lg:text-2xl">
+                  <h4 className="mb-2 mt-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Junior Quality Assurance Engineer
                   </h4>
-                  <p className="mb-2 text-lg text-slate-500 lg:text-lg">
+                  <p className="mb-2 text-sm text-slate-500 lg:text-lg">
                     PT Qatros Teknologi Nusantara
                   </p>
                   <p className="mb-2">Freelance (03 Oktober - 14 November)</p>
                   <p className="mb-3 text-sm font-medium lg:text-base">
                     Maguwoharjo, Special Region of Yogyakarta
                   </p>
-                  <p>
+                  <p className="text-md xl:text-lg">
                     In addition to my internship, I had the opportunity to work
                     as a freelance Junior Quality Assurance Engineer at Qatros.
                     During this time, I performed manual testing of websites for
@@ -412,7 +412,7 @@ const About = () => {
                     COVID-19. Here are some of the tasks I performed as a
                     freelancer:
                   </p>
-                  <ul className="mx-5 mt-2 list-disc">
+                  <ul className="mx-5 mt-2 list-disc text-sm xl:text-lg">
                     <li>
                       Completed Qatros projects within the agreed-upon
                       timeframe.
@@ -425,7 +425,7 @@ const About = () => {
                   <h4 className="mb-2 text-lg font-bold text-black lg:text-2xl">
                     Software Developer
                   </h4>
-                  <p className="mb-2 text-lg  text-slate-500 lg:text-lg">
+                  <p className="mb-2 text-sm  text-slate-500 lg:text-lg">
                     Yayasan SATUNAMA
                   </p>
                   <p className="mb-2">
@@ -446,7 +446,7 @@ const About = () => {
                     continued as a final project for my thesis course. Here are
                     some of the tasks I performed during my internship:
                   </p>
-                  <ul className="mx-5 mt-2 list-disc">
+                  <ul className="mx-5 mt-2 list-disc text-sm xl:text-lg">
                     <li>
                       {" "}
                       Conducted a thorough analysis of the recruitment business
