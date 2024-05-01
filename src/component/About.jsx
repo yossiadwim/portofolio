@@ -7,7 +7,7 @@ const About = () => {
             <h4 className="mb-3 text-2xl font-bold uppercase text-teal-500 lg:text-3xl">
               About Me
             </h4>
-            <p className="text-justify text-sm font-medium text-slate-500">
+            <p className="md:text-lg text-justify text-base font-medium text-slate-500 lg:text-base xl:text-lg">
               I am a graduate in informatics from Duta Wacana Christian
               University. Throughout my coursework, I have developed a profound
               understanding of key concepts in informatics, alongside robust
@@ -342,7 +342,7 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-96 w-1 bg-teal-500 md:h-[420px]"></div>
+                    <div className="mx-[8px] h-96 w-1 bg-teal-500 md:h-[420px] xl:h-[450px]"></div>
                   </div>
                 </div>
                 <div className="flex flex-wrap">
@@ -356,7 +356,7 @@ const About = () => {
                 </div>
               </div>
               <div className="lg:w-1/2">
-                <div className="mx-5 mb-10 overflow-y-auto rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md lg:border-none lg:shadow-none ">
+                <div className="mx-5 mb-10 h-[500px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
                   <h4 className="text-md mb-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Quality Assurance Engineer
                   </h4>
@@ -393,7 +393,7 @@ const About = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="mx-5 mb-8 rounded-md border border-slate-300 px-5 pb-5 shadow-md lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-8 h-[500px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
                   <h4 className="mb-2 mt-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Junior Quality Assurance Engineer
                   </h4>
@@ -421,7 +421,7 @@ const About = () => {
                     <li>Provided progress reports on assigned tasks.</li>
                   </ul>
                 </div>
-                <div className="mx-5 rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-10 h-[500px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
                   <h4 className="mb-2 text-lg font-bold text-black lg:text-2xl">
                     Software Developer
                   </h4>
