@@ -206,7 +206,7 @@ const About = () => {
                   <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
                 </svg>
               </a>
-              {/* <a
+              <a
                 href=""
                 className="mr-3 flex h-9 w-9 items-center justify-center rounded-full hover:text-white "
               >
@@ -220,7 +220,7 @@ const About = () => {
                   <title>Express</title>
                   <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z" />
                 </svg>
-              </a> */}
+              </a>
             </div>
             <h3 className="mb-3 text-2xl font-bold uppercase text-teal-500 lg:text-3xl">
               Stay Connected with Me!
@@ -333,7 +333,7 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-[500px] w-1 bg-teal-500 md:h-[470px] xl:h-[550px]"></div>
+                    <div className="mx-[8px] h-[500px] w-1 bg-teal-500 md:h-[470px] xl:h-[650px]"></div>
                   </div>
                 </div>
                 <div className="flex flex-wrap">
@@ -342,7 +342,7 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-96 w-1 bg-teal-500 md:h-[420px] xl:h-[450px]"></div>
+                    <div className="mx-[8px] h-96 w-1 bg-teal-500 md:h-[420px] xl:h-[470px]"></div>
                   </div>
                 </div>
                 <div className="flex flex-wrap">
@@ -351,12 +351,12 @@ const About = () => {
                   </div>
                   <div className="">
                     <div className="h-5 w-5 rounded-full bg-teal-500"></div>
-                    <div className="mx-[8px] h-[550px] w-1 bg-teal-500 md:h-[620px]"></div>
+                    <div className="mx-[8px] h-[550px] w-1 bg-teal-500 md:h-[700px]"></div>
                   </div>
                 </div>
               </div>
               <div className="lg:w-1/2">
-                <div className="mx-5 mb-10 h-[500px] w-[450px]   rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-10 xl:mb-0 h-[500px] w-[450px] rounded-md border border-slate-300 px-5 pb-5 pt-5  shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
                   <h4 className="text-md mb-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Quality Assurance Engineer
                   </h4>
@@ -393,7 +393,7 @@ const About = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="mx-5 mb-8 h-[450px] w-[450px]   rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-10 xl:mb-0 h-[450px] w-[450px] rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
                   <h4 className="mb-2 mt-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Junior Quality Assurance Engineer
                   </h4>
@@ -421,7 +421,7 @@ const About = () => {
                     <li>Provided progress reports on assigned tasks.</li>
                   </ul>
                 </div>
-                <div className="mx-5 mb-10 h-[600px] w-[450px]   rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-10 xl:mb-0 h-[600px] w-[450px] rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
                   <h4 className="mb-2 text-lg font-bold text-black lg:text-2xl">
                     Software Developer
                   </h4>
