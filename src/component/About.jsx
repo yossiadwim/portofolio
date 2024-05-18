@@ -356,7 +356,7 @@ const About = () => {
                 </div>
               </div>
               <div className="lg:w-1/2">
-                <div className="mx-5 mb-10 xl:mb-0 h-[500px] w-[450px] rounded-md border border-slate-300 px-5 pb-5 pt-5  shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-10 xl:mb-0 h-[500px] w-[300px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5  shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
                   <h4 className="text-md mb-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Quality Assurance Engineer
                   </h4>
@@ -393,7 +393,7 @@ const About = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="mx-5 mb-10 xl:mb-0 h-[450px] w-[450px] rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-10 xl:mb-0 h-[450px] w-[300px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
                   <h4 className="mb-2 mt-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Junior Quality Assurance Engineer
                   </h4>
@@ -421,7 +421,7 @@ const About = () => {
                     <li>Provided progress reports on assigned tasks.</li>
                   </ul>
                 </div>
-                <div className="mx-5 mb-10 xl:mb-0 h-[600px] w-[450px] rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-10 xl:mb-0 h-[600px] w-[300px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
                   <h4 className="mb-2 text-lg font-bold text-black lg:text-2xl">
                     Software Developer
                   </h4>
