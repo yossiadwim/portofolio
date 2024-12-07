@@ -1,34 +1,26 @@
+"use client";
+
+import { Button, Timeline } from "flowbite-react";
+import { HiArrowNarrowRight } from "react-icons/hi";
+
 const About = () => {
   return (
     <section id="about" className="pb-32 pt-36">
       <div className="container mb-10 pl-0 pr-0">
         <div className="flex flex-wrap">
-          <div className="mb-10 w-full px-5 lg:w-1/2">
+          <div className="mb-10 w-full p-5 px-5  lg:w-1/2">
             <h4 className="mb-3 text-2xl font-bold uppercase text-teal-500 lg:text-3xl">
               About Me
             </h4>
             <p className="text-justify text-base font-medium text-slate-500 md:text-lg lg:text-base xl:text-lg">
-              I am a graduate in informatics from Duta Wacana Christian
-              University. Throughout my coursework, I have developed a profound
-              understanding of key concepts in informatics, alongside robust
-              analytical and problem-solving skills. My interests primarily
-              revolve around web development, software testing, and backend
-              development. Beyond my academic pursuits, I actively engage in
-              extracurricular activities such as the Fresh Graduate Academy
-              (Digitalent Scholarship KOMINFO), Merdeka Belajar Kampus Merdeka
-              (MBKM), and Dicoding. I seized the opportunity to intern at Qatros
-              as a Junior QA Engineer and also freelanced in the same role at
-              the same company. This experience equipped me with practical
-              insights into quality assurance processes. Furthermore, I possess
-              strong interpersonal skills that enable effective collaboration
-              within teams and proficient communication. I am enthusiastic about
-              applying my knowledge and skills in real-world scenarios,
-              confident that my contributions can add value to any workplace. I
-              am committed to ongoing learning and growth in dynamic and
-              innovative work environments.
+              I am deeply fascinated by the dynamic world of technology, with a
+              particular passion for software development and quality assurance.
+              My journey has been driven by a relentless curiosity and a
+              commitment to fostering innovation and excellence in the tech
+              industry.
             </p>
           </div>
-          <div className="w-full lg:w-1/2">
+          <div className="w-full p-5  lg:w-1/2">
             <h3 className="mb-3 text-2xl font-bold uppercase text-teal-500 lg:text-3xl">
               Technologies
             </h3>
@@ -321,12 +313,154 @@ const About = () => {
       </div>
       <div className="pl-0 pr-0 ">
         <div className="container mx-auto pb-10 pt-10">
-          <div className="mx-auto w-full lg:w-full">
+          <div className="mx-auto w-full lg:w-1/2">
             <h4 className="mb-10 text-center text-2xl font-bold uppercase text-teal-500 lg:text-3xl">
               Experiences
             </h4>
-            <div className="flex flex-wrap justify-center">
-              <div className="mr-5 hidden items-center lg:block">
+            <div className="flex items-center  justify-center">
+              <Timeline>
+                <Timeline.Item>
+                  <Timeline.Point />
+                  <Timeline.Content>
+                    <Timeline.Time>
+                      Internship (August - December) 2022
+                    </Timeline.Time>
+                    <Timeline.Title>
+                      Qatros - Quality Assurance Engineer
+                    </Timeline.Title>
+                    <Timeline.Body>
+                      During my 7th semester, I participated in the government's
+                      MSIB program. I applied for the internship program with
+                      the position of Quality Assurance Engineer. The program
+                      ran from August to December 2022. Here are some of the
+                      things I worked on during my internship:
+                      <ul className="mx-5 mt-2 list-disc text-sm xl:text-base">
+                        <li>
+                          Proactively and communicatively formulate work-related
+                          solutions.
+                        </li>
+                        <li>
+                          Follow and implement the syllabus prepared by the
+                          mentor.
+                        </li>
+                        <li>
+                          Review requirements, specifications, and design
+                          documents technically to generate accurate and
+                          meaningful responses.
+                        </li>
+                        <li>Enhance and ensure good software quality.</li>
+                        <li>
+                          Conduct thorough regression testing once issues/bugs
+                          have been resolved.
+                        </li>
+                      </ul>
+                    </Timeline.Body>
+                  </Timeline.Content>
+                </Timeline.Item>
+
+                <Timeline.Item>
+                  <Timeline.Point />
+                  <Timeline.Content>
+                    <Timeline.Time>
+                      Freelance (October - November) 2022
+                    </Timeline.Time>
+                    <Timeline.Title>
+                      Qatros - Junior Quality Assurance Engineer
+                    </Timeline.Title>
+                    <Timeline.Body>
+                      In addition to my internship, I had the opportunity to
+                      work as a freelance Junior Quality Assurance Engineer at
+                      Qatros. During this time, I performed manual testing of
+                      websites for medical checkups, pharmacies, swab tests, and
+                      PCR tests for COVID-19. Here are some of the tasks I
+                      performed as a freelancer:
+                      <ul className="mx-5 mt-2 list-disc text-sm xl:text-base">
+                        <li>
+                          Completed Qatros projects within the agreed-upon
+                          timeframe.
+                        </li>
+                        <li>Identified and corrected bugs.</li>
+                        <li>Provided progress reports on assigned tasks.</li>
+                      </ul>
+                    </Timeline.Body>
+                  </Timeline.Content>
+                </Timeline.Item>
+
+                <Timeline.Item>
+                  <Timeline.Point />
+                  <Timeline.Content>
+                    <Timeline.Time>
+                      Internship (August - December) 2022
+                    </Timeline.Time>
+                    <Timeline.Title>
+                      YAYASAN SATUNAMA - Software Developer
+                    </Timeline.Title>
+                    <Timeline.Body>
+                      During my 7th semester, I had the opportunity to intern as
+                      a software developer at a non-profit foundation. The
+                      foundation was collaborating with Duta Wacana Christian
+                      University to digitize its business processes. During this
+                      internship, I developed a website for a recruitment
+                      monitoring system to support the digitization of the
+                      recruitment process. This internship experience was then
+                      continued as a final project for my thesis course. Here
+                      are some of the tasks I performed during my internship:
+                      <ul className="mx-5 mt-2 list-disc text-sm xl:text-base">
+                        <li>
+                          {" "}
+                          Conducted a thorough analysis of the recruitment
+                          business process within the foundation.
+                        </li>
+                        <li>
+                          Designed and developed a comprehensive recruitment
+                          monitoring system.
+                        </li>
+                        <li>
+                          Successfully implemented the recruitment monitoring
+                          system using the Laravel framework.
+                        </li>
+                        <li>
+                          Rigorously tested the system to ensure its
+                          functionality and performance.
+                        </li>
+                      </ul>
+                    </Timeline.Body>
+                  </Timeline.Content>
+                </Timeline.Item>
+
+                <Timeline.Item>
+                  <Timeline.Point />
+                  <Timeline.Content>
+                    <Timeline.Time>
+                      Internship, Freelance, Contract (May - Present) 2024
+                    </Timeline.Time>
+                    <Timeline.Title>Berijalan - Quality Control</Timeline.Title>
+                    <Timeline.Body>
+                      I began my journey at [Nama Perusahaan] as an intern from
+                      May to September, gaining invaluable experience in
+                      software testing and data analysis. Upon completing my
+                      internship, I transitioned into a freelance role from
+                      September to October, further honing my skills.
+                      Subsequently, I joined as a contract IT Quality Control
+                      specialist, ensuring seamless system and application
+                      quality.
+                    </Timeline.Body>
+                  </Timeline.Content>
+                </Timeline.Item>
+              </Timeline>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
+
+{
+  /* <div className="flex flex-wrap justify-center border border-black ">
+              <div className="mr-5 hidden items-center  lg:block">
                 <div className="flex flex-wrap">
                   <div className="mr-5 h-5 w-5">
                     <p className="font-bold">2022</p>
@@ -356,7 +490,7 @@ const About = () => {
                 </div>
               </div>
               <div className="lg:w-1/2">
-                <div className="mx-5 mb-10 xl:mb-0 h-[500px] w-[300px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5  shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
+                <div className="mx-5  mb-10 h-[500px] w-fit overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md  md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none xl:mb-0">
                   <h4 className="text-md mb-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Quality Assurance Engineer
                   </h4>
@@ -393,7 +527,7 @@ const About = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="mx-5 mb-10 xl:mb-0 h-[450px] w-[300px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-10 h-[450px] w-[300px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none xl:mb-0">
                   <h4 className="mb-2 mt-2 text-lg font-bold text-black md:text-xl xl:text-2xl">
                     Junior Quality Assurance Engineer
                   </h4>
@@ -421,7 +555,7 @@ const About = () => {
                     <li>Provided progress reports on assigned tasks.</li>
                   </ul>
                 </div>
-                <div className="mx-5 mb-10 xl:mb-0 h-[600px] w-[300px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none">
+                <div className="mx-5 mb-10 h-[600px] w-[300px] overflow-scroll overflow-x-hidden rounded-md border border-slate-300 px-5 pb-5 pt-5 shadow-md md:h-fit md:overflow-hidden lg:h-fit lg:overflow-hidden lg:border-none lg:shadow-none xl:mb-0">
                   <h4 className="mb-2 text-lg font-bold text-black lg:text-2xl">
                     Software Developer
                   </h4>
@@ -467,12 +601,5 @@ const About = () => {
                   </ul>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default About;
+            </div> */
+}
