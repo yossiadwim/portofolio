@@ -13,11 +13,13 @@ const About = () => {
               About Me
             </h4>
             <p className="text-justify text-base font-medium text-slate-500 md:text-lg lg:text-base xl:text-lg">
-              I am deeply fascinated by the dynamic world of technology, with a
-              particular passion for software development and quality assurance.
-              My journey has been driven by a relentless curiosity and a
-              commitment to fostering innovation and excellence in the tech
-              industry.
+              Passionate QA Engineer and Software Developer with a keen eye for
+              quality and a drive for excellence. Skilled in both manual and
+              automated testing, I ensure robust, reliable, and user-friendly
+              applications. I bridge the gap between development and QA,
+              fostering a collaborative workflow. Always exploring new
+              technologies and striving for continuous improvement. Let's
+              connect and innovate together!
             </p>
           </div>
           <div className="w-full p-5  lg:w-1/2">
@@ -436,8 +438,8 @@ const About = () => {
                     </Timeline.Time>
                     <Timeline.Title>Berijalan - Quality Control</Timeline.Title>
                     <Timeline.Body>
-                      I began my journey at [Nama Perusahaan] as an intern from
-                      May to September, gaining invaluable experience in
+                      I began my journey at Berijalan Techno Center as an intern
+                      from May to September, gaining invaluable experience in
                       software testing and data analysis. Upon completing my
                       internship, I transitioned into a freelance role from
                       September to October, further honing my skills.

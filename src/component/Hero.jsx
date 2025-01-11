@@ -6,27 +6,28 @@ const Hero = () => {
           <div className="w-full self-center px-4 lg:w-1/2">
             <h1 className="text-base font-semibold text-teal-500 md:text-xl lg:text-2xl ">
               Hello there 👋, My name is{" "}
-              <span className="block font-bold text-slate-950 text-3xl lg:text-4xl mt-1">
+              <span className="mt-1 block text-3xl font-bold text-slate-950 lg:text-4xl">
                 Yossia Dwi Mahardika
               </span>
             </h1>
-            <h2 className="font-medium text-slate-500 text-lg mb-5 mt-1">
-              Fresh Graduate & Bachelor of Informatics
+            <h2 className="mb-5 mt-1 text-lg font-medium text-slate-500">
+              Bachelor of Informatics
             </h2>
-            <p className="font-medium text-slate-400 mb-10 leading-relaxed">
-            I am a fresh graduate studying at Duta Wacana Christian University
+            <p className="mb-10 font-medium leading-relaxed text-slate-400">
+              Passionate About Driving Quality and Efficiency.
             </p>
             <a
-              href="https://wa.me/081273422807" target="blank"
-              className="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              href="https://wa.me/081273422807"
+              target="blank"
+              className="rounded-full bg-teal-500 px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg"
             >
               Contact Me
             </a>
           </div>
           <div className="w-full self-end px-4 lg:w-1/2 ">
-            <div className=" relative mt-10 lg:mt-0 lg:right-0">
-              <img src="/img/image.png" alt="" className="max-w-full mx-auto" />
-              <span className="absolute bottom-5 -z-10 left-1/2 -translate-x-1/2 lg:scale-125">
+            <div className=" relative mt-10 lg:right-0 lg:mt-0">
+              <img src="/img/image.png" alt="" className="mx-auto max-w-full" />
+              <span className="absolute bottom-5 left-1/2 -z-10 -translate-x-1/2 lg:scale-125">
                 <svg
                   width="400"
                   height="400"
